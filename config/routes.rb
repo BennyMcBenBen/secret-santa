@@ -1,4 +1,8 @@
 SecretSanta::Application.routes.draw do
+  get "welcome/index"
+  get "exchange_members/update"
+  post "exchange_members/assign"
+  get "exchange_members/show"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

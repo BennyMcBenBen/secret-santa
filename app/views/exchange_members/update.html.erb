@@ -1,0 +1,7 @@
+<h1>Enter Exchange Members</h1>
+
+<%= form_tag :action => "assign" do %>  
+  <%= label_tag(:names, "Members:") %>
+  <%= text_field_tag(:names) %>
+  <%= submit_tag("Assign members") %>
+<% end %>

@@ -1,0 +1,10 @@
+<h1>Assign Exchange Members</h1>
+<table>
+  <tr><th>Gifter</th><th>Giftee</th></tr>
+  <% @assignments.each do |assignment| %>
+    <tr>
+      <td><%= assignment[0] %></td>
+      <td><%= assignment[1] %></td>
+    </tr>
+  <% end %>
+</table>
