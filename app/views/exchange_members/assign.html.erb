@@ -3,8 +3,8 @@
   <tr><th>Gifter</th><th>Giftee</th></tr>
   <% @assignments.each do |assignment| %>
     <tr>
-      <td><%= assignment[0] %></td>
-      <td><%= assignment[1] %></td>
+      <td><%= assignment.gifter %></td>
+      <td><%= assignment.giftee %></td>
     </tr>
   <% end %>
 </table>
